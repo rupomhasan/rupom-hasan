@@ -38,6 +38,8 @@
   background-image: url(/IMG/IMG_20230618_141506.png),
     linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
   color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .title {
   font-size: 55px;
