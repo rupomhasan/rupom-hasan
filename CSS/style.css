@@ -14,7 +14,7 @@
   width: 140px;
   padding: 24px;
 }
-.manu {
+.meanu {
   display: flex;
   justify-content: right;
 }
@@ -26,4 +26,36 @@
 }
 .item:hover {
   color: red;
+}
+.bannar-img {
+  width: 300px;
+}
+.bannar-containor {
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  align-items: center;
+  background-image: url(/IMG/IMG_20230618_141506.png),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  color: white;
+}
+.title {
+  font-size: 55px;
+  font-weight: bold;
+}
+.description {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.btm {
+  padding: 10px 25px;
+  background-color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btm:hover {
+  color: white;
+  background-color: red;
+  font-weight: bold;
 }
