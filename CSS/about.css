@@ -1,0 +1,34 @@
+.header {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.section-imge {
+  width: 300px;
+}
+.sub-heading {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.text {
+  font-size: 18px;
+}
+.contact {
+  margin-top: 30px;
+}
+.last {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.last:hover {
+  color: white;
+  background-color: red;
+}
