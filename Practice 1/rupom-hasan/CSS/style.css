@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.manu-containor {
+  color: white;
+  background-color: gray;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+.logo-photo {
+  width: 140px;
+  padding: 24px;
+}
+.meanu {
+  display: flex;
+  justify-content: right;
+}
+.item {
+  margin-left: 10px;
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.item:hover {
+  color: red;
+  font-weight: bold;
+}
+.bannar-img {
+  width: 300px;
+}
+.bannar-containor {
+  display: flex;
+  justify-content: space-around;
+  height: 80vh;
+  align-items: center;
+  background-image: url(/IMG/IMG_20230618_141506.png),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.title {
+  font-size: 55px;
+  font-weight: bold;
+}
+.description {
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.btm {
+  padding: 10px 25px;
+  background-color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btm:hover {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+  transition: 0.5s;
+}

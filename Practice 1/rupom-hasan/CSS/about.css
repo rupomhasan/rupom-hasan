@@ -1,0 +1,114 @@
+.header {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.section-imge {
+  width: 300px;
+}
+.sub-heading {
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.text {
+  font-size: 18px;
+}
+.contact {
+  margin-top: 30px;
+}
+.last {
+  padding: 10px 20px;
+  background-color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.last:hover {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  transition: 0.5s;
+}
+.service {
+  margin-top: 45px;
+  color: white;
+}
+.art {
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  background-image: url(/IMG/IMG_20230618_141506.png),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+}
+.icon {
+  width: 70px;
+  margin: 20px;
+}
+.back {
+  background-image: url(/IMG/IMG_20230618_141506.png),
+    linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+  margin-top: 30px;
+}
+.digital {
+  width: 230px;
+  height: 320px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(55, 55, 55);
+  box-shadow: 5px 15px 80px 0px gray;
+}
+.white {
+  color: white;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.fun {
+  color: white;
+  margin-bottom: 8px;
+}
+.detials {
+  padding: 3px 20px;
+  margin-top: 14px;
+  color: white;
+  background-color: rgb(55, 55, 55);
+  border-radius: 13px 0px 13px 0px;
+}
+.detials:hover {
+  background-color: red;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.end {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  background-color: black;
+  list-style: none;
+  padding-bottom: 30%;
+  border-bottom: 2px solid gray;
+  padding-top: 30%;
+}
+.option {
+  color: white;
+}
+.logo-light {
+  width: 150px;
+  padding-bottom: 20px;
+}
+.final {
+  color: white;
+  background-color: rgb(70, 70, 70);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+.span {
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0px 2px 2px 2px;
+}
